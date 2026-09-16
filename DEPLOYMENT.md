@@ -32,10 +32,10 @@ Open your terminal in the portfolio folder and run:
 git remote add origin https://github.com/YOUR-USERNAME/REPO-NAME.git
 
 # Example for user site:
-# git remote add origin https://github.com/vinaydatta/vinaydatta.github.io.git
+# git remote add origin https://github.com/vinaydatta1002/vinaydatta.github.io.git
 
 # Example for project site:
-# git remote add origin https://github.com/vinaydatta/portfolio.git
+# git remote add origin https://github.com/vinaydatta1002/portfolio.git
 ```
 
 ### **Step 3: Commit and Push Your Code**
@@ -101,21 +101,24 @@ git push
 
 ### Issue: Workflow not running
 
-**Solution**: 
+**Solution**:
+
 1. Go to Settings → Actions → General
 2. Under "Workflow permissions", select **"Read and write permissions"**
 3. Click **"Save"**
 
 ### Issue: 404 Page Not Found
 
-**Solution**: 
+**Solution**:
+
 - If using a project site (not `username.github.io`), make sure you set the base path:
+
   ```bash
   # Set the environment variable
   export NEXT_PUBLIC_BASE_PATH="/repository-name"
   # or on Windows:
   set NEXT_PUBLIC_BASE_PATH=/repository-name
-  
+
   # Then rebuild
   npm run build
   git add .
@@ -135,7 +138,7 @@ git push
 ✅ Runs TypeScript checks  
 ✅ Creates optimized static files  
 ✅ Deploys to GitHub Pages  
-✅ Site updates within 2-3 minutes  
+✅ Site updates within 2-3 minutes
 
 ---
 
@@ -148,7 +151,7 @@ Want to use your own domain like `vinaydatta.dev`?
 3. In your domain provider's DNS settings, add:
    - Type: `A` Record
    - Host: `@`
-   - Value: 
+   - Value:
      ```
      185.199.108.153
      185.199.109.153

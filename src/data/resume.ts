@@ -25,7 +25,7 @@ export const profile = {
     workPreference: "Hybrid · Remote · On-site",
     email: "vinaydattabhaskaruni@gmail.com",
     phone: "+91 73864 12992",
-    github: "https://github.com/vinaydatta",
+    github: "https://github.com/vinaydatta1002",
     linkedin: "https://www.linkedin.com/in/vinaydatta-bhaskaruni/",
     resumeFile: "/Resume.pdf",
     summary: [
