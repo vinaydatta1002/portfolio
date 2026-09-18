@@ -36,13 +36,7 @@ export const profile = {
     ],
 } as const;
 
-export const topSkills = [
-    "DevOps",
-    "Amazon Web Services (AWS)",
-    "Terraform",
-    "Python",
-    "Site Reliability Engineering",
-];
+export const topSkills = ["DevOps","Amazon Web Services (AWS)","Terraform","Kubernetes", "CI/CD", "Python", "Node.js"];
 
 export const stats = [
     { value: "4.5+", label: "Years in cloud & DevOps" },
@@ -75,6 +69,7 @@ export const experience: Experience[] = [
             "GitHub Actions",
             "Grafana",
             "Prometheus",
+            "IAM"
         ],
     },
     {
@@ -105,6 +100,7 @@ export const experience: Experience[] = [
             "Node.js",
             "GitHub Actions",
             "Terraform",
+            "IAM"
         ],
     },
     {
